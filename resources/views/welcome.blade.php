@@ -38,9 +38,9 @@
     <body>
         <div class="container">
             <div class="content">
+                <div class="title">Irmãos Mallmann Advogados</div>
                 <div class="title"></div> <a href="{{ url('auth/login') }}">Logar</a> </div>
-                <div class="title">Hello World {{ $completo }}</div>
-                <div class="title">Hello World {{ $familia}} {{$primeiro}}</div>    
+
             </div>
         </div>
     </body>
