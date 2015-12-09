@@ -1,0 +1,63 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+
+Route::get('/', function () {
+
+    return view('welcome');
+
+
+});
+
+Route::get('/cliente', function () { // rota para os clientes
+
+    return view('cliente');
+
+
+});
+
+Route::get('/protocolo', function () { // rota para os clientes
+
+    return view('protocolo');
+
+
+});
+
+Route::get('/admin', function () { // rota para os clientes
+	return "uinfsduindfsuin";
+
+   // return view('admin');
+
+
+});
+
+Route::get('/iniciais', function () { // rota para os clientes
+
+    return view('cadastro_iniciais');
+
+
+});
+
+Route::get('/contrato', function () { // rota para os clientes
+
+    return view('contrato');
+
+
+});
+
+Route::get('/exec_iniciais', function () { // rota para os clientes
+
+    return view('iniciais');
+
+
+});
+
