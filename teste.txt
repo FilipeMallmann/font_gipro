@@ -1,0 +1,3 @@
+echo for($i = 1; $i <= 45; $i++ ) {$cldb = DB::table('clientes')->insert(['nome' => $fk->name,'fone' => random_int(11111111,99999999), 'Andamento' => $fk->paragraph(5)]);}
+
+// criar o cliente e o $fk (faker/Factory) antes
