@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Irm„os Mallmann Advogados</div>
+                <div class="title">Irm√£os Mallmann Advogados</div>
                 <div class="title"></div> <a href="{{ url('auth/login') }}">Logar</a> </div>
 
             </div>
